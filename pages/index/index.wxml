@@ -1,0 +1,5 @@
+<head-nav 
+topBarName="{{topBarName}}"
+isShare= "{{isShare}}"
+bindmygetbackpreviouspage="getBackPreviousPage"
+></head-nav>

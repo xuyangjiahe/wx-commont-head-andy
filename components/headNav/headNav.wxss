@@ -1,0 +1,72 @@
+/* components/headNav/headNav.wxss */
+.head_nav {
+  width: 100%;
+  height: auto;
+  /* position: fixed;
+  left: 0;
+  top:0; */
+}
+.top_bar {
+  position: fixed;
+  left: 0;
+  top:0;
+  z-index: 9;
+}
+.status-bar {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 96rpx;
+  /* height: 128rpx; */
+  /* background-color:rgba(41,123,250,1); */
+  z-index: 9;
+}
+.bar_text {
+  height: 100%;
+  line-height: 98rpx;
+  /* line-height: 128rpx; */
+  text-align: center;
+  color:#fff;
+}
+.bar_pr {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.login_out_btn{
+  float: left;
+  width: 32rpx;
+  height: 36rpx;
+  /* padding: 36rpx 22rpx; */
+  padding-top:36rpx;
+  padding-right: 10rpx;
+  padding-bottom: 36rpx;
+  padding-left: 22rpx;
+
+  cursor: pointer;
+  color:#333;
+}
+.back_home {
+  float: left;
+  width: 34rpx;
+  height: 34rpx;
+  margin: 38rpx 22rpx;
+
+  cursor: pointer;
+}
+.bar_title {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+  font-size:32rpx;
+  font-family:PingFang SC;
+  font-weight:bold;
+  color:rgba(0,6,15,1);
+}
+.h128{
+  width: 100%;
+  height: 146rpx;
+}

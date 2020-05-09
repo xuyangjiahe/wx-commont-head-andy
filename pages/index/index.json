@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "head-nav": "/components/headNav/headNav"
+  },
+  "backgroundColor": "#fff",
+  "navigationStyle": "custom",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true
+}

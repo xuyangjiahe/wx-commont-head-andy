@@ -1,0 +1,22 @@
+<!-- 头部统一 -->
+<view class="head_nav">
+  
+  <view style="width:100%;height:{{statusBarHeight}}px;background-color:{{barBgColor}};" class="top_bar"></view>
+  <view class="status-bar" style="top:{{statusBarHeight}}px;background-color:{{barBgColor}};">
+    <view class="bar_text">
+      <view class="bar_pr">
+        <image class="login_out_btn" bindtap="getBackPreviousPage" wx:if="{{isShare === '2'}}"  src="../../images/fanhui.png"></image>
+        <!-- 此为突破限制，每个都需要wx -->
+        <!-- <image class="login_out_btn" bindtap="goBack" wx:if="{{isShare === '2'}}"  src="../../images/fanhui.png"></image> -->
+        <!-- wx:if="{{isShare !== '2'}}" -->
+        <image class="back_home"  bindtap="getBackHome"  src="../../images/home-icon.png"></image>
+       
+        <view class="bar_title">{{topBarName}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="h128" style="height: {{topMainHeight}}rpx;"></view>
+  
+  
+
